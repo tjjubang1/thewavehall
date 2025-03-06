@@ -274,7 +274,7 @@ body {
 
 #casting_board_wrap {
     background-color: #3B67A6;
-    width: 1920px;
+    width: 100%;
     height: 240px;
     margin: 230px auto;
     position: relative;
