@@ -660,8 +660,10 @@ body{
 .s5_banner1.animate img {
     transform: translateX(0);
 }
-
-.s5_banner2 img .s_5imgbox2{
+.s5_banner2{
+    text-align: right;
+}
+.s5_banner2 img{
     width: 1400px;
     height: 400px;
     transform: translateX(1920px);
