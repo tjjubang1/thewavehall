@@ -851,9 +851,8 @@ body {
 }
 
 .footer_inner .footer_logo {
-    display: flex;
-    align-items: center;
     opacity: 0.5;
+    scale: 0.8;
 }
 
 .footer_inner .footer_logo:hover {
@@ -863,7 +862,7 @@ body {
 .footer_inner .footer_text {
     width: 560px;
     height: 100px;
-    margin-top: 72px;
+    margin-top: 30px;
     color: #fff;
 }
 
@@ -884,13 +883,14 @@ body {
 
 .footer_inner .footer_text .footer_text3 {
     font-size: 14px;
-    opacity: 50%;
+    opacity: 0.5;
+    margin-top: 20px;
 }
 
 .footer_inner .footer_icon {
     width: 310px;
     height: 120px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .footer_inner .footer_icon ul {
@@ -908,7 +908,7 @@ body {
 }
 
 .footer_inner .footer_icon .select {
-    margin-top: 20px;
+    margin-top: 30px;
     border-radius: 20px;
     box-sizing: border-box;
     background: url(../img/footer/footer_arrow.png) no-repeat right 20px center;
