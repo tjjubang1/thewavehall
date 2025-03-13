@@ -100,10 +100,7 @@ body {
     bottom: 30px;
     right: 50px;
     z-index: 100;
-}
-
-.top_button a {
-    display: block;
+    cursor: pointer;
 }
 
 .top_button:hover {
@@ -117,7 +114,6 @@ body {
     width: 150px;
     height: 50px;
     font-family: "Pretendard Variable", Pretendard, sans-serif;
-    ;
     font-size: 16px;
     font-weight: 600;
     color: #fff;
@@ -224,11 +220,15 @@ body {
     text-shadow: 2px 2px 2px #33333380;
 }
 
-.gnb>li>a {
+.gnb li {
+    cursor: pointer;
+}
+
+.gnb li {
     display: block;
 }
 
-.gnb>li>a:hover {
+.gnb li:hover {
     color: #B79F83;
 }
 
@@ -629,6 +629,7 @@ body {
     width: 100%;
     height: 540px;
     padding-top: 110px;
+    margin-bottom: 150px;
 }
 
 .s4_container {
@@ -711,14 +712,14 @@ body {
 
 .s5_title {
     width: 1320px;
-    height: 260px;
-    margin: 110px auto;
+    height: 150px;
+    margin: 120px auto;
     text-align: center;
     color: #3B67A6;
     font-family: "Marcellus", serif;
     font-size: 56px;
     box-sizing: border-box;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .tiny {
@@ -864,7 +865,7 @@ body {
     height: 100px;
     margin-top: 30px;
     color: #fff;
-    margin-right:190px;
+    margin-right: 190px;
 }
 
 .footer_inner .footer_text ul li a {
