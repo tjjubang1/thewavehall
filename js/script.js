@@ -6,6 +6,40 @@ setInterval(function(){
 },4000);
 // header 끝
 
+// top 시작
+$(".top_button").click(function(){
+    $("body,html").animate({
+        scrollTop: 0
+    },1000)
+});
+// top 끝
+
+// 공연예매
+$(".gnb li:nth-child(1)").click(function(){
+    $("body,html").animate({
+        scrollTop: 910
+    },500)
+});
+
+// NEWS
+$(".gnb li:nth-child(2)").click(function(){
+    $("body,html").animate({
+        scrollTop: 3400
+    },1000)
+});
+// Library
+$(".gnb li:nth-child(3)").click(function(){
+    $("body,html").animate({
+        scrollTop: 4300
+    },1000)
+});
+// The Wave Hall
+$(".gnb li:nth-child(4)").click(function(){
+    $("body,html").animate({
+        scrollTop: 5050
+    },1000)
+});
+
 // section1 slider1 시작
 $(document).on('ready', function () {
     $(".center").slick({
